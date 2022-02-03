@@ -1,0 +1,141 @@
+@import "null.css";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@font-face {
+    font-family: CircularStd;
+    src: url('../fonts/CircularStd-Book.woff2') format('woff2'),
+    url('../fonts/CircularStd-Book.woff') format('woof');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: CircularStd;
+    src: url('../fonts/CircularStd-Medium.woff2') format('woff2'),
+    url('../fonts/CircularStd-Medium.woff') format('woof');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: CircularStd;
+    src: url('../fonts/CircularStd-Bold.woff2') format('woff2'),
+    url('../fonts/CircularStd-Bold.woff') format('woof');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: CircularStd;
+    src: url('../fonts/CircularStd-Black.woff2') format('woff2'),
+    url('../fonts/CircularStd-Black.woff') format('woof');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.header {
+    font-family: 'Dancing Script', cursive;
+}
+
+.header h1 {
+    font-size: 34px;
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+}
+
+.header p {
+    font-family: "CircularStd", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.list a {
+    text-decoration: underline;
+    color: #FF3F3A;
+}
+
+span {
+    font-size: 18px;
+    color: blueviolet;
+    font-family: "CircularStd", sans-serif;
+    font-weight: 700;
+}
+
+.header p + p {
+    text-decoration: line-through;
+}
+
+.menu h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: tomato;
+    text-align: left;
+}
+
+#section_2 {
+    color: cornflowerblue;
+    font-size: 20px;
+    text-decoration: line-through;
+    text-shadow: 10px 10px 10px red;
+}
+
+.main p {
+    color: lime;
+    line-height: 1.5;
+}
+
+.main p + p {
+    color: green;
+    text-align: center;
+    text-decoration: overline;
+}
+
+h2 {
+    color: yellow;
+    font-size: 24px;
+    text-align: right;
+    text-decoration: line-through;
+}
+
+.transactions-list li{
+    text-indent: 20px;
+}
+
+.transactions-list a {
+    color: hotpink;
+    word-spacing: 5px;
+}
+
+footer {
+    font-family: "CircularStd", sans-serif;
+    font-weight: 700;
+    color: maroon;
+    text-transform: lowercase;
+}
+
+#section_4 {
+    color: mediumblue;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.footer p {
+    color: black;
+    font-size: 50px;
+}
+
+.contacts-list a{
+    text-transform: uppercase;
+}
+
